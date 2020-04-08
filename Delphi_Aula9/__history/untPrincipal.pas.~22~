@@ -1,0 +1,68 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    Panel1: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    edtValor: TEdit;
+    edtDesconto: TEdit;
+    edtFinal: TEdit;
+    btnCalcular: TButton;
+    BitBtn1: TBitBtn;
+    procedure btnCalcularClick(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.BitBtn1Click(Sender: TObject);
+begin
+  //Confirmando com o usuário se deseja realmente sair
+  //if messageDlg('Deseja realmente sair?',mtConfirmation, mbYesNo, 0) = mrYes then
+    {close;}
+    if Application.MessageBox ('Deseja realmente sair?','Confirmação', MB_YESNO + MB_ICONQUESTION)= mrYes then
+      close;
+end;
+
+procedure TfrmPrincipal.btnCalcularClick(Sender: TObject);
+var vValor, vDesconto, vFinal : real;
+begin
+  //Recuperando os valores digitados pelo usuário
+  try
+    vValor := StrToFloat( edtValor.Text );
+  except
+    ShowMessage('Digite um número!');
+  end;
+
+
+  //Atribuindo o valor do desconto ao respectivo edit
+  if (vValor > 100) then
+    edtDesconto.Text := '5'
+  else
+    edtDesconto.Text := '0';
+  //Recuperar o % do desconto
+  vDesconto := StrToFloat( edtDesconto.Text );
+  //Calculando o valor final
+  vFinal := vValor - (vValor*vDesconto/100);
+  //Mostrando o valor final
+  edtFinal.Text := FloatToStr( vFinal );
+end;
+
+end.

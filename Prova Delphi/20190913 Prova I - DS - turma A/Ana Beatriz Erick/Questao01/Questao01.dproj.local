@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/10 11:00:17.000.895,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/10 11:11:55.000.536,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\untPrincipal.dfm</Transaction>
+    <Transaction>2019/09/10 11:11:55.000.536,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\untPrincipal.pas</Transaction>
+    <Transaction>2019/09/10 11:12:29.000.249,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\Exercicio01.dproj</Transaction>
+    <Transaction>2019/09/10 11:13:08.000.031,C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\Exercicio01.dproj=C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\Questao01\Questao01.dproj</Transaction>
+    <Transaction>2019/09/10 11:13:15.000.429,C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\untPrincipal.pas=C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\Questao01\untPrincipal.pas</Transaction>
+    <Transaction>2019/09/10 11:13:15.000.429,C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\untPrincipal.dfm=C:\Users\sergio.lacerda\Desktop\Projetos Prova\DS-A\Questao01\untPrincipal.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,35 @@
+unit untCadCategoria;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, untDmDados, Vcl.Dialogs, Vcl.ComCtrls, Vcl.TabNotBk,
+  Vcl.StdCtrls, Vcl.Buttons, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TfrmCadCategorias = class(TForm)
+    BitBtn1: TBitBtn;
+    tabCategoria: TTabbedNotebook;
+    DBGrid1: TDBGrid;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadCategorias: TfrmCadCategorias;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCadCategorias.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+	frmPrincipal := nil;
+end;
+
+end.

@@ -1,0 +1,57 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    edtPrimeiro: TEdit;
+    edtSegundo: TEdit;
+    btnExecutar: TButton;
+    procedure btnExecutarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnExecutarClick(Sender: TObject);
+
+var v1, v2, soma, mult, subt : integer;
+    divi : real;
+    strResultado : String;
+
+begin
+  //Converte os texto (.text) dos edits em inteiros
+  //E armazana nas variáveis
+   v1 := StrToInt(edtPrimeiro.Text);
+   v2 := StrToInt(edtSegundo.Text);
+
+   //Fazendo as operações e atribuindo os resultados às variáveis
+   soma := v1 + v2;
+   subt := v1 - v2;
+   mult := v1 * v2;
+   divi := v1 / v2;
+
+   strResultado := 'Soma=' + soma +
+                   ' Subtração=' + subt +
+                   ' Multiplicação=' + mult +
+                   ' Divisão=' + divi;
+
+   ShowMessage(strResultado);
+
+end;
+
+end.

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/10/02 21:15:32.131,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 21:15:47.765,C:\Users\etec\Desktop\Delphi_Aula15\untPrincipal.dfm=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/02 21:15:47.765,C:\Users\etec\Desktop\Delphi_Aula15\untPrincipal.pas=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 21:17:04.638,C:\Users\etec\Desktop\Delphi_Aula15\polimorfismo.dproj=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/10/02 21:19:24.739,=C:\Users\etec\Desktop\Delphi_Aula15\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 21:19:48.541,C:\Users\etec\Desktop\Delphi_Aula15\untTAnimal.pas=C:\Users\etec\Desktop\Delphi_Aula15\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 21:26:48.719,=C:\Users\etec\Desktop\Delphi_Aula15\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 21:27:02.407,C:\Users\etec\Desktop\Delphi_Aula15\untTGato.pas=C:\Users\etec\Desktop\Delphi_Aula15\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

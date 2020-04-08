@@ -1,0 +1,10 @@
+object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 271
+  Width = 405
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Users\etec\Desktop\Delphi_Aula18\libmysql.dll'
+    Left = 40
+    Top = 24
+  end
+end

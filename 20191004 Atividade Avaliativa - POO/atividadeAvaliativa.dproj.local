@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/04 21:20:55.000.103,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:21:29.020,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:21:44.498,C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\untPrincipal.dfm=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/04 21:21:44.498,C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\untPrincipal.pas=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:22:00.878,C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\atividadeAvaliativa.dproj=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/10/04 21:27:35.562,=C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:27:44.895,C:\Users\etec\Documents\TConta.pas=C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:28:08.617,C:\Users\etec\Documents\TConta.pas=</Transaction>
+    <Transaction>2019/10/04 21:28:17.379,=C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:28:23.636,C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\untTConta.pas=C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:29:59.307,=C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\Unit1.pas</Transaction>
+    <Transaction>2019/10/04 21:30:06.506,C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\untTContaEspecial.pas=C:\Users\etec\Desktop\20191004 Atividade Avaliativa - POO\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

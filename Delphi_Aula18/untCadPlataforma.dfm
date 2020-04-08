@@ -1,0 +1,84 @@
+object frmCadPlataforma: TfrmCadPlataforma
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de plataforma'
+  ClientHeight = 218
+  ClientWidth = 681
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 128
+    Width = 62
+    Height = 13
+    Caption = 'IdPlataforma'
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 168
+    Width = 52
+    Height = 13
+    Caption = 'Plataforma'
+    FocusControl = DBEdit2
+  end
+  object grdPlataforma: TDBGrid
+    Left = 0
+    Top = 0
+    Width = 678
+    Height = 97
+    DataSource = DmDados.dsPlataforma
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object navPlataforma: TDBNavigator
+    Left = 433
+    Top = 112
+    Width = 240
+    Height = 25
+    DataSource = DmDados.dsPlataforma
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 598
+    Top = 182
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 2
+  end
+  object DBEdit1: TDBEdit
+    Left = 8
+    Top = 144
+    Width = 134
+    Height = 21
+    DataField = 'IdPlataforma'
+    DataSource = DmDados.dsPlataforma
+    TabOrder = 3
+  end
+  object DBEdit2: TDBEdit
+    Left = 8
+    Top = 184
+    Width = 200
+    Height = 21
+    DataField = 'Plataforma'
+    DataSource = DmDados.dsPlataforma
+    TabOrder = 4
+  end
+end

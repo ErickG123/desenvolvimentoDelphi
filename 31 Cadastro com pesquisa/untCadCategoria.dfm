@@ -1,0 +1,86 @@
+object frmCadCategorias: TfrmCadCategorias
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Cadastro de Categorias'
+  ClientHeight = 320
+  ClientWidth = 674
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 581
+    Top = 287
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 0
+  end
+  object tabCategoria: TTabbedNotebook
+    Left = 8
+    Top = 8
+    Width = 649
+    Height = 273
+    TabFont.Charset = DEFAULT_CHARSET
+    TabFont.Color = clBtnText
+    TabFont.Height = -11
+    TabFont.Name = 'Tahoma'
+    TabFont.Style = []
+    TabOrder = 1
+    object TTabPage
+      Left = 4
+      Top = 24
+      Caption = 'Pesquisa'
+      ExplicitWidth = 292
+      ExplicitHeight = 222
+    end
+    object TTabPage
+      Left = 4
+      Top = 24
+      HelpContext = 1
+      Caption = 'Edi'#231#227'o'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 24
+    Top = 40
+    Width = 617
+    Height = 185
+    DataSource = DmDados.dsCategorias
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object btnPesquisar: TButton
+    Left = 566
+    Top = 239
+    Width = 75
+    Height = 25
+    Caption = 'Pesquisar'
+    TabOrder = 3
+  end
+  object edtPesquisa: TEdit
+    Left = 152
+    Top = 241
+    Width = 401
+    Height = 21
+    TabOrder = 4
+  end
+end

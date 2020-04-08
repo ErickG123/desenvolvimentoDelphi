@@ -1,0 +1,25 @@
+unit untCadPlataforma;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, untCadTemplate, Vcl.StdCtrls, untDmDados,
+  Vcl.Buttons, Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TfrmCadPlataforma = class(TfrmTemplate)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadPlataforma: TfrmCadPlataforma;
+
+implementation
+
+{$R *.dfm}
+
+end.

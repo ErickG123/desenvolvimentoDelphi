@@ -1,0 +1,17 @@
+object dmDados: TdmDados
+  OldCreateOrder = False
+  Height = 278
+  Width = 432
+  object conn: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\sergio.lac' +
+      'erda\Desktop\DS-A\00 Bases de dados\dbProdutos.mdb;Persist Secur' +
+      'ity Info=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 40
+    Top = 48
+  end
+end

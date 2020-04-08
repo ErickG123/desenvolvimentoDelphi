@@ -1,0 +1,112 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Reajuste de aluguel'
+  ClientHeight = 517
+  ClientWidth = 931
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 72
+    Width = 126
+    Height = 18
+    Caption = 'Valor Aluguel :'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 120
+    Width = 115
+    Height = 18
+    Caption = '% Reajuste :'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 268
+    Width = 107
+    Height = 18
+    Caption = 'Novo Valor :'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object pnlUm: TPanel
+    Left = 0
+    Top = 0
+    Width = 931
+    Height = 41
+    Align = alTop
+    Caption = 'Reajuste de Aluguel'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    ExplicitLeft = 352
+    ExplicitWidth = 185
+  end
+  object edtAluguel: TEdit
+    Left = 184
+    Top = 69
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edtReajuste: TEdit
+    Left = 184
+    Top = 117
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object btnCalcular: TButton
+    Left = 32
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 3
+    OnClick = btnCalcularClick
+  end
+  object Sair: TBitBtn
+    Left = 832
+    Top = 472
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 4
+  end
+  object Panel1: TPanel
+    Left = 184
+    Top = 256
+    Width = 121
+    Height = 30
+    TabOrder = 5
+  end
+end

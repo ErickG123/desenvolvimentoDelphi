@@ -1,0 +1,53 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Exemplo de pesquisa'
+  ClientHeight = 381
+  ClientWidth = 650
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 200
+    Width = 98
+    Height = 13
+    Caption = 'Pesquisar por nome:'
+  end
+  object grdProdutos: TDBGrid
+    Left = 8
+    Top = 8
+    Width = 634
+    Height = 169
+    DataSource = DmDados.dsProdutos
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object edtPesquisaNome: TEdit
+    Left = 128
+    Top = 197
+    Width = 305
+    Height = 21
+    TabOrder = 1
+  end
+  object btnPesquisar: TButton
+    Left = 520
+    Top = 195
+    Width = 122
+    Height = 25
+    Caption = 'Pesquisar'
+    TabOrder = 2
+    OnClick = btnPesquisarClick
+  end
+end

@@ -1,0 +1,67 @@
+object frmCadProdutos: TfrmCadProdutos
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Cadastro de produtos'
+  ClientHeight = 494
+  ClientWidth = 822
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object grdProdutos: TDBGrid
+    Left = 8
+    Top = 8
+    Width = 805
+    Height = 265
+    DataSource = DmDados.dsProdutos
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object navProdutos: TDBNavigator
+    Left = 574
+    Top = 343
+    Width = 240
+    Height = 25
+    DataSource = DmDados.dsProdutos
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 738
+    Top = 461
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 2
+  end
+  object edtPesquisa: TEdit
+    Left = 8
+    Top = 291
+    Width = 724
+    Height = 25
+    TabOrder = 3
+  end
+  object btnPesquisar: TButton
+    Left = 738
+    Top = 289
+    Width = 75
+    Height = 27
+    Caption = 'Pesquisar'
+    TabOrder = 4
+    OnClick = btnPesquisarClick
+  end
+end

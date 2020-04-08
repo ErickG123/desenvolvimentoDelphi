@@ -1,0 +1,40 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Cadastro de categorias'
+  ClientHeight = 401
+  ClientWidth = 638
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object grdCategorias: TDBGrid
+    Left = 8
+    Top = 8
+    Width = 622
+    Height = 145
+    DataSource = DmDados.dsCategoria
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object navCategoria: TDBNavigator
+    Left = 390
+    Top = 159
+    Width = 240
+    Height = 25
+    DataSource = DmDados.dsCategoria
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,14 @@
+unit untTGato;
+
+interface
+
+uses untTAnimal;
+
+type
+  TGato = class(TAnimal)
+
+  end;
+
+implementation
+
+end.

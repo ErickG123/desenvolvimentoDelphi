@@ -1,0 +1,25 @@
+unit untTPessoa;
+
+interface
+
+type
+  TPessoa = Class
+    private
+      cpf : integer;
+    public
+      procedure setCpf( n : integer );
+      function getCpf : integer;
+  End;
+
+implementation
+
+//Vamos atribuir o parâmetro "n" ao atributo "cpf"
+procedure TPessoa.setCpf( n : integer );
+begin
+  if (n > 0) then
+    self.cpf := n
+  else
+    self.cpf := -1;
+end;
+
+end.

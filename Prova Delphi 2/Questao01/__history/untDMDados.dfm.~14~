@@ -1,0 +1,94 @@
+﻿object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 265
+  Width = 385
+  object conn: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Us' +
+      'ers\etec\Desktop\20191122 - 2'#186' DS - Prova DS\Questao01\Base de D' +
+      'ados\dbSistema.mdb;Mode=Share Deny None;Persist Security Info=Fa' +
+      'lse;Jet OLEDB:System database="";Jet OLEDB:Registry Path="";Jet ' +
+      'OLEDB:Database Password="";Jet OLEDB:Engine Type=5;Jet OLEDB:Dat' +
+      'abase Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLE' +
+      'DB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=""' +
+      ';Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Databa' +
+      'se=False;Jet OLEDB:Don'#39't Copy Locale on Compact=False;Jet OLEDB:' +
+      'Compact Without Replica Repair=False;Jet OLEDB:SFP=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 32
+    Top = 56
+  end
+  object qryEntidades: TADOQuery
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from Entidades')
+    Left = 104
+    Top = 56
+    object qryEntidadesIdentificação: TAutoIncField
+      FieldName = 'Identifica'#231#227'o'
+      ReadOnly = True
+    end
+    object qryEntidadesCategoria: TWideStringField
+      DisplayWidth = 10
+      FieldName = 'Categoria'
+    end
+    object qryEntidadesNome: TWideStringField
+      DisplayWidth = 20
+      FieldName = 'Nome'
+      Size = 50
+    end
+    object qryEntidadesMunicipio: TWideStringField
+      DisplayWidth = 20
+      FieldName = 'Municipio'
+      Size = 50
+    end
+    object qryEntidadesUF: TWideStringField
+      FieldName = 'UF'
+      Size = 2
+    end
+  end
+  object dsEntidades: TDataSource
+    DataSet = qryEntidades
+    Left = 184
+    Top = 56
+  end
+  object qryProdutos: TADOQuery
+    Connection = conn
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from Produtos')
+    Left = 104
+    Top = 120
+    object qryProdutosIdentificação: TAutoIncField
+      FieldName = 'Identifica'#231#227'o'
+      ReadOnly = True
+    end
+    object qryProdutosCategoria: TWideStringField
+      DisplayWidth = 25
+      FieldName = 'Categoria'
+      Size = 60
+    end
+    object qryProdutosProduto: TWideStringField
+      DisplayWidth = 80
+      FieldName = 'Produto'
+      Size = 80
+    end
+    object qryProdutosValorUnitario: TBCDField
+      DisplayWidth = 5
+      FieldName = 'ValorUnitario'
+      Precision = 19
+    end
+  end
+  object dsProdutos: TDataSource
+    DataSet = qryProdutos
+    Left = 184
+    Top = 120
+  end
+end

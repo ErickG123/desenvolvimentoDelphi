@@ -1,0 +1,8 @@
+inherited frmCadcategoarias: TfrmCadcategoarias
+  Caption = 'Cadastro de categoarias'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited navDados: TDBNavigator
+    Hints.Strings = ()
+  end
+end

@@ -1,0 +1,12 @@
+object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 255
+  Width = 427
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 
+      'C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\li' +
+      'bmysql.dll'
+    Left = 64
+    Top = 24
+  end
+end

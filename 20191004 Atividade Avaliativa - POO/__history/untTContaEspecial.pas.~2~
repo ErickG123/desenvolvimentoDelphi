@@ -1,0 +1,13 @@
+unit untTContaEspecial;
+
+interface
+
+uses untTConta;
+
+type TContaEspecial = class(TConta)
+  procedure setLimite ( lim : real );
+end;
+
+implementation
+
+end.

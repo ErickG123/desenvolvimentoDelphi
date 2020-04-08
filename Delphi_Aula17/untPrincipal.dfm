@@ -1,0 +1,127 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'FireDAC'
+  ClientHeight = 602
+  ClientWidth = 716
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 208
+    Width = 57
+    Height = 13
+    Caption = 'IdCategoria'
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 248
+    Width = 47
+    Height = 13
+    Caption = 'Categoria'
+    FocusControl = DBEdit2
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 504
+    Width = 62
+    Height = 13
+    Caption = 'IdPlataforma'
+    FocusControl = DBEdit3
+  end
+  object Label4: TLabel
+    Left = 48
+    Top = 544
+    Width = 52
+    Height = 13
+    Caption = 'Plataforma'
+    FocusControl = DBEdit4
+  end
+  object grdCateg: TDBGrid
+    Left = 48
+    Top = 16
+    Width = 481
+    Height = 113
+    DataSource = dmDados.dsCategorias
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 48
+    Top = 160
+    Width = 240
+    Height = 25
+    DataSource = dmDados.dsCategorias
+    TabOrder = 1
+  end
+  object DBEdit1: TDBEdit
+    Left = 48
+    Top = 224
+    Width = 134
+    Height = 21
+    DataField = 'IdCategoria'
+    DataSource = dmDados.dsCategorias
+    TabOrder = 2
+  end
+  object DBEdit2: TDBEdit
+    Left = 48
+    Top = 264
+    Width = 654
+    Height = 21
+    DataField = 'Categoria'
+    DataSource = dmDados.dsCategorias
+    TabOrder = 3
+  end
+  object grdPlata: TDBGrid
+    Left = 48
+    Top = 304
+    Width = 481
+    Height = 120
+    DataSource = dmDados.dsPlataformas
+    TabOrder = 4
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DBNavigator2: TDBNavigator
+    Left = 48
+    Top = 456
+    Width = 240
+    Height = 25
+    DataSource = dmDados.dsPlataformas
+    TabOrder = 5
+  end
+  object DBEdit3: TDBEdit
+    Left = 48
+    Top = 520
+    Width = 134
+    Height = 21
+    DataField = 'IdPlataforma'
+    DataSource = dmDados.dsPlataformas
+    TabOrder = 6
+  end
+  object DBEdit4: TDBEdit
+    Left = 48
+    Top = 560
+    Width = 654
+    Height = 21
+    DataField = 'Plataforma'
+    DataSource = dmDados.dsPlataformas
+    TabOrder = 7
+  end
+end

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/13 17:13:41.000.061,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/13 17:13:56.000.443,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\sergio.lacerda\Desktop\Questao01\untPrincipal.pas</Transaction>
+    <Transaction>2019/11/13 17:13:56.000.443,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\Questao01\untPrincipal.dfm</Transaction>
+    <Transaction>2019/11/13 17:14:01.000.920,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\sergio.lacerda\Desktop\Questao01\Questao01.dproj</Transaction>
+    <Transaction>2019/11/13 17:16:28.000.180,=C:\Users\sergio.lacerda\Desktop\Questao01\Unit1.pas</Transaction>
+    <Transaction>2019/11/13 17:16:43.000.497,C:\Users\sergio.lacerda\Desktop\Questao01\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\Questao01\untDMDados.dfm</Transaction>
+    <Transaction>2019/11/13 17:16:43.000.497,C:\Users\sergio.lacerda\Desktop\Questao01\Unit1.pas=C:\Users\sergio.lacerda\Desktop\Questao01\untDMDados.pas</Transaction>
+    <Transaction>2019/11/22 23:22:42.662,=C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\Unit1.pas</Transaction>
+    <Transaction>2019/11/22 23:22:49.270,C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\untCadEntidades.pas=C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\Unit1.pas</Transaction>
+    <Transaction>2019/11/22 23:22:49.270,C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\untCadEntidades.dfm=C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\Unit1.dfm</Transaction>
+    <Transaction>2019/11/22 23:22:52.455,=C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\Unit2.pas</Transaction>
+    <Transaction>2019/11/22 23:22:56.014,C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\untCadProdutos.dfm=C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\Unit2.dfm</Transaction>
+    <Transaction>2019/11/22 23:22:56.014,C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\untCadProdutos.pas=C:\Users\etec\Desktop\20191122 - 2º DS - Prova DS\Questao01\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

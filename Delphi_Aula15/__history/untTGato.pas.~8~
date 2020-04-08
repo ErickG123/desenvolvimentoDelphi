@@ -1,0 +1,25 @@
+unit untTGato;
+
+interface
+
+uses untTAnimal;
+
+type
+  TGato = class(TAnimal)
+  public
+      function emitirSom : String;
+      function emitirSom( som : String ) : String;
+  end;
+
+implementation
+
+function TGato.emitirSom : String;
+begin
+  emitirSom := 'Miauuuu';
+end;
+
+function emitirSom( som : String ) : String;
+begin
+  emitirSom := Som;
+end;
+end.

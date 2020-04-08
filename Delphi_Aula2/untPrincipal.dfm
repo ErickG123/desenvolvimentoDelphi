@@ -1,0 +1,127 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'frmPrincipal'
+  ClientHeight = 503
+  ClientWidth = 925
+  Color = clLime
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 19
+    Top = 57
+    Width = 198
+    Height = 24
+    Caption = 'Texto n'#227'o editavel'
+    Color = clLime
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe Script'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object pnlCabecalho: TPanel
+    Left = 0
+    Top = 0
+    Width = 925
+    Height = 41
+    Align = alTop
+    Caption = 'Sistema 1.0'
+    Color = clAqua
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clPurple
+    Font.Height = -19
+    Font.Name = 'Segoe Script'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+    ExplicitLeft = 360
+    ExplicitTop = 8
+    ExplicitWidth = 185
+  end
+  object btnSair: TButton
+    Left = 0
+    Top = 472
+    Width = 925
+    Height = 31
+    Align = alBottom
+    Caption = 'SAIR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Segoe Script'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnSairClick
+    ExplicitLeft = 800
+    ExplicitTop = 464
+    ExplicitWidth = 117
+  end
+  object edtTextoUser: TEdit
+    Left = 19
+    Top = 104
+    Width = 198
+    Height = 35
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe Script'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Texto editavel'
+  end
+  object btnVerificar: TButton
+    Left = 19
+    Top = 160
+    Width = 198
+    Height = 25
+    Caption = 'Verificar o que o usu'#225'rio digitou'
+    TabOrder = 3
+    OnClick = btnVerificarClick
+  end
+  object MainMenu1: TMainMenu
+    Left = 872
+    Top = 424
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Cliente1: TMenuItem
+        Caption = 'Cliente'
+      end
+      object Fornecedor1: TMenuItem
+        Caption = 'Fornecedor'
+      end
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+      end
+    end
+    object Relatorios1: TMenuItem
+      Caption = 'Relat'#243'rios'
+      object Relatriodevendas1: TMenuItem
+        Caption = 'Relat'#243'rio de vendas'
+      end
+      object Realatriodecustos1: TMenuItem
+        Caption = 'Realat'#243'rio de custos'
+      end
+    end
+    object Sair1: TMenuItem
+      Caption = 'Sair'
+      object Sairdosistema1: TMenuItem
+        Caption = 'Sair do sistema'
+        OnClick = btnSairClick
+      end
+    end
+  end
+end

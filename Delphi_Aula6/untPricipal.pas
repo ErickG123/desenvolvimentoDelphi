@@ -1,0 +1,37 @@
+unit untPricipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    btnTrocar: TButton;
+    btnSair: TBitBtn;
+    procedure btnTrocarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnTrocarClick(Sender: TObject);
+begin
+  if Panel1.Color = clGreen then
+    Panel1.Color := clRed
+  else
+    Panel1.Color :=clGreen
+
+end;
+
+end.

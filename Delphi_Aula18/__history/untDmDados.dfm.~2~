@@ -1,0 +1,23 @@
+object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 271
+  Width = 405
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Users\etec\Desktop\Delphi_Aula18\libmysql.dll'
+    Left = 56
+    Top = 24
+  end
+  object conn: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=dblojagames'
+      'Password=root'
+      'Server=127.0.0.1'
+      'User_Name=root'
+      'Pooled=False')
+    Connected = True
+    LoginPrompt = False
+    Left = 144
+    Top = 24
+  end
+end

@@ -1,0 +1,16 @@
+unit untTPessoa;
+
+interface
+
+type
+  TPessoa = Class
+    private
+      cpf : integer;
+    public
+      procedure setCpf( n : integer );
+      function getCpf : integer;
+  End;
+
+implementation
+
+end.

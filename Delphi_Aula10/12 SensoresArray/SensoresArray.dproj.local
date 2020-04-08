@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/23 21:35:34.000.079,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/23 21:35:48.000.716,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\sergio.lacerda\Desktop\DS-A\11 Array\untPrincipal.pas</Transaction>
+    <Transaction>2019/08/23 21:35:48.000.716,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\DS-A\11 Array\untPrincipal.dfm</Transaction>
+    <Transaction>2019/08/23 21:36:11.000.427,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\sergio.lacerda\Desktop\DS-A\11 Array\ExemploArray.dproj</Transaction>
+    <Transaction>2019/08/23 22:27:48.560,C:\Users\sergio.lacerda\Desktop\DS-A\12 SensoresArray\SensoresArray.dproj=C:\Users\sergio.lacerda\Desktop\DS-A\12 SensoresArray\ExemploArray.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

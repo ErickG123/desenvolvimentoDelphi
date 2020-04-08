@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/23 22:26:38.000.661,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/30 21:15:41.000.854,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/30 21:15:58.000.706,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\sergio.lacerda\Desktop\DS-A\30 Pesquisa\untPrincipal.pas</Transaction>
+    <Transaction>2019/10/30 21:15:58.000.706,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\DS-A\30 Pesquisa\untPrincipal.dfm</Transaction>
+    <Transaction>2019/10/30 21:16:03.000.692,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\sergio.lacerda\Desktop\DS-A\30 Pesquisa\Pesquisa.dproj</Transaction>
+    <Transaction>2019/10/30 22:31:30.129,=C:\Users\sergio.lacerda\Desktop\DS-A\30 Pesquisa\untDmDados.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/11/01 21:20:42.678,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:20:58.682,C:\Users\etec\Desktop\Delphi_Aula19\untPrincipal.pas=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:20:58.682,C:\Users\etec\Desktop\Delphi_Aula19\untPrincipal.dfm=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/11/01 21:21:06.369,C:\Users\etec\Desktop\Delphi_Aula19\cadastroPesquisa.dproj=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/11/01 21:35:46.479,=C:\Users\etec\Desktop\Delphi_Aula19\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:36:07.588,C:\Users\etec\Desktop\Delphi_Aula19\untDmDados.pas=C:\Users\etec\Desktop\Delphi_Aula19\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:36:07.588,C:\Users\etec\Desktop\Delphi_Aula19\untDmDados.dfm=C:\Users\etec\Desktop\Delphi_Aula19\Unit1.dfm</Transaction>
+    <Transaction>2019/11/01 22:16:17.294,=C:\Users\etec\Desktop\Delphi_Aula19\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 22:16:38.370,C:\Users\etec\Desktop\Delphi_Aula19\untCadPlataforma.pas=C:\Users\etec\Desktop\Delphi_Aula19\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 22:16:38.370,C:\Users\etec\Desktop\Delphi_Aula19\untCadPlataforma.dfm=C:\Users\etec\Desktop\Delphi_Aula19\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

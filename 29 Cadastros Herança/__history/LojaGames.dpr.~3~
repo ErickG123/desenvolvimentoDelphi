@@ -1,0 +1,18 @@
+program LojaGames;
+
+uses
+  Vcl.Forms,
+  untPrincipal in 'untPrincipal.pas' {frmPrincipal},
+  untDmDados in 'untDmDados.pas' {DmDados: TDataModule},
+  untCadCategoria in 'untCadCategoria.pas' {frmCadCategoria},
+  untCadPlataforma in 'untCadPlataforma.pas' {frmCadPlataforma};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TDmDados, DmDados);
+  Application.Run;
+end.

@@ -1,0 +1,42 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Delphi1'
+  ClientHeight = 536
+  ClientWidth = 918
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnSair: TButton
+    Left = 808
+    Top = 503
+    Width = 102
+    Height = 25
+    Caption = 'Sair do Sistema'
+    TabOrder = 0
+    OnClick = btnSairClick
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 918
+    Height = 49
+    Align = alTop
+    Caption = 'Breno '
+    Color = clFuchsia
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clPurple
+    Font.Height = -21
+    Font.Name = 'Stencil Std'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,12 @@
+unit untTAluno;
+
+interface
+
+type
+  TAluno = class
+    RM : String;
+  end;
+
+implementation
+
+end.

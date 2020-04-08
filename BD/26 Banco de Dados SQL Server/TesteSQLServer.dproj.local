@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/23 22:26:38.000.661,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/11 21:15:26.657,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/11 21:44:39.680,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/10/11 21:45:44.182,C:\Users\sergio.lacerda\Desktop\DS-A\25 Banco de Dados SQL Server\untDMDados.dfm=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2019/10/11 21:45:44.182,C:\Users\sergio.lacerda\Desktop\DS-A\25 Banco de Dados SQL Server\untDMDados.pas=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/10/11 21:45:55.810,C:\Users\sergio.lacerda\Desktop\DS-A\25 Banco de Dados SQL Server\untPrincipal.pas=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/11 21:45:55.810,C:\Users\sergio.lacerda\Desktop\DS-A\25 Banco de Dados SQL Server\untPrincipal.dfm=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/11 21:46:11.241,C:\Users\sergio.lacerda\Desktop\DS-A\25 Banco de Dados SQL Server\TesteSQLServer.dproj=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

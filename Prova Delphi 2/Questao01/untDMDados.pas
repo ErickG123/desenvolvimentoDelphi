@@ -1,0 +1,39 @@
+unit untDMDados;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB;
+
+type
+  TDmDados = class(TDataModule)
+    conn: TADOConnection;
+    qryEntidades: TADOQuery;
+    dsEntidades: TDataSource;
+    qryEntidadesIdentificação: TAutoIncField;
+    qryEntidadesCategoria: TWideStringField;
+    qryEntidadesNome: TWideStringField;
+    qryEntidadesMunicipio: TWideStringField;
+    qryEntidadesUF: TWideStringField;
+    qryProdutos: TADOQuery;
+    dsProdutos: TDataSource;
+    qryProdutosIdentificação: TAutoIncField;
+    qryProdutosCategoria: TWideStringField;
+    qryProdutosProduto: TWideStringField;
+    qryProdutosValorUnitario: TBCDField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DmDados: TDmDados;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

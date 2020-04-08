@@ -1,0 +1,41 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 363
+  Width = 499
+  object conn: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=escola'
+      'User_Name=root'
+      'Password=root'
+      'Server=127.0.0.1')
+    Connected = True
+    LoginPrompt = False
+    Left = 24
+    Top = 24
+  end
+  object tbAluno: TFDTable
+    Active = True
+    IndexFieldNames = 'RA'
+    Connection = conn
+    UpdateOptions.UpdateTableName = 'escola.aluno'
+    TableName = 'escola.aluno'
+    Left = 24
+    Top = 88
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 408
+    Top = 32
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Users\etec\Desktop\Atividade Interdisciplinar\libmysql.dll'
+    Left = 408
+    Top = 88
+  end
+  object dsAluno: TDataSource
+    DataSet = tbAluno
+    Left = 24
+    Top = 168
+  end
+end

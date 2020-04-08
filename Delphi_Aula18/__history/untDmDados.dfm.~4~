@@ -1,0 +1,85 @@
+object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 191
+  Width = 405
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Users\etec\Desktop\Delphi_Aula18\libmysql.dll'
+    Left = 40
+    Top = 32
+  end
+  object conn: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=dblojagames'
+      'Password=root'
+      'Server=127.0.0.1'
+      'User_Name=root'
+      'Pooled=False')
+    Connected = True
+    LoginPrompt = False
+    Left = 120
+    Top = 32
+  end
+  object tblCategoria: TFDTable
+    Active = True
+    IndexFieldNames = 'IdCategoria'
+    Connection = conn
+    UpdateOptions.UpdateTableName = 'dblojagames.categorias'
+    TableName = 'dblojagames.categorias'
+    Left = 184
+    Top = 32
+    object tblCategoriaIdCategoria: TFDAutoIncField
+      FieldName = 'IdCategoria'
+      Origin = 'IdCategoria'
+    end
+    object tblCategoriaCategoria: TStringField
+      FieldName = 'Categoria'
+      Origin = 'Categoria'
+      Required = True
+      Size = 50
+    end
+  end
+  object dsCategoria: TDataSource
+    DataSet = tblCategoria
+    Left = 256
+    Top = 32
+  end
+  object tblPlataforma: TFDTable
+    Active = True
+    IndexFieldNames = 'IdPlataforma'
+    Connection = conn
+    UpdateOptions.UpdateTableName = 'dblojagames.plataformas'
+    TableName = 'dblojagames.plataformas'
+    Left = 184
+    Top = 88
+    object tblPlataformaIdPlataforma: TFDAutoIncField
+      FieldName = 'IdPlataforma'
+      Origin = 'IdPlataforma'
+    end
+    object tblPlataformaPlataforma: TStringField
+      FieldName = 'Plataforma'
+      Origin = 'Plataforma'
+      Required = True
+      Size = 50
+    end
+  end
+  object dsPlataforma: TDataSource
+    DataSet = tblPlataforma
+    Left = 256
+    Top = 88
+  end
+  object tblProduto: TFDTable
+    Active = True
+    IndexFieldNames = 'IdProduto'
+    Connection = conn
+    UpdateOptions.UpdateTableName = 'dblojagames.produtos'
+    TableName = 'dblojagames.produtos'
+    Left = 184
+    Top = 144
+  end
+  object dsProduto: TDataSource
+    DataSet = tblProduto
+    Left = 256
+    Top = 145
+  end
+end

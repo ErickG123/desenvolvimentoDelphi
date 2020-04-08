@@ -1,0 +1,25 @@
+unit untCadDisciplina;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TfrmCadDisciplina = class(TForm)
+    grdDisciplina: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadDisciplina: TfrmCadDisciplina;
+
+implementation
+
+{$R *.dfm}
+
+end.

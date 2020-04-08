@@ -1,0 +1,53 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    Panel1: TPanel;
+    Label1: TLabel;
+    edtNotaTrabalho: TEdit;
+    Label2: TLabel;
+    edtNotaProva: TEdit;
+    Label3: TLabel;
+    edtNotaObservacao: TEdit;
+    pnlMedia: TPanel;
+    btnCalcularMedia: TButton;
+    btnLimpar: TButton;
+    BitBtn1: TBitBtn;
+    procedure btnLimparClick(Sender: TObject);
+    procedure btnCalcularMediaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+
+{ ------------- Programação para o botão "Calcular Média" ----------- }
+procedure TfrmPrincipal.btnCalcularMediaClick(Sender: TObject);
+var media, notaProva, notaTrabalho, notaObservacao : Real;
+begin
+  {Insira aqui a sua programação para o botão "Calcular Média"}
+
+end;
+
+{ ----------------- Programação para o botão "Limpar" --------------- }
+procedure TfrmPrincipal.btnLimparClick(Sender: TObject);
+begin
+  {Insira aqui a sua programação para o botão "Limpar"}
+
+end;
+
+end.

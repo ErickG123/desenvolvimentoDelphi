@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/23 22:26:38.000.661,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:21:08.000.178,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:21:22.000.364,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\untPrincipal.dfm</Transaction>
+    <Transaction>2019/11/01 21:21:22.000.364,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\untPrincipal.pas</Transaction>
+    <Transaction>2019/11/01 21:21:27.000.805,C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Cadastro.dproj</Transaction>
+    <Transaction>2019/11/01 21:35:49.000.582,=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 21:36:31.000.578,C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Unit1.pas=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\untDmDados.pas</Transaction>
+    <Transaction>2019/11/01 21:36:31.000.578,C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\untDmDados.dfm</Transaction>
+    <Transaction>2019/11/01 22:16:14.000.635,=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Unit1.pas</Transaction>
+    <Transaction>2019/11/01 22:16:49.000.511,C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Unit1.dfm=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\untCadPlataforma.dfm</Transaction>
+    <Transaction>2019/11/01 22:16:49.000.511,C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\Unit1.pas=C:\Users\sergio.lacerda\Desktop\DS-A\31 Cadastro com pesquisa\untCadPlataforma.pas</Transaction>
+    <Transaction>2019/11/09 00:53:58.946,=C:\Users\etec\Desktop\31 Cadastro com pesquisa\Unit1.pas</Transaction>
+    <Transaction>2019/11/09 00:54:09.199,C:\Users\etec\Desktop\31 Cadastro com pesquisa\untCadCategoria.dfm=C:\Users\etec\Desktop\31 Cadastro com pesquisa\Unit1.dfm</Transaction>
+    <Transaction>2019/11/09 00:54:09.199,C:\Users\etec\Desktop\31 Cadastro com pesquisa\untCadCategoria.pas=C:\Users\etec\Desktop\31 Cadastro com pesquisa\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

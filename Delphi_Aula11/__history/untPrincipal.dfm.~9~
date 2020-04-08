@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Valores do Array'
+  ClientHeight = 165
+  ClientWidth = 349
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 24
+    Width = 149
+    Height = 23
+    Caption = 'Menor n'#250'mero =>'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object TLabel
+    Left = 24
+    Top = 69
+    Width = 144
+    Height = 19
+    Caption = 'Maior n'#250'mero =>'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btnCriarArray: TButton
+    Left = 24
+    Top = 117
+    Width = 75
+    Height = 25
+    Caption = 'Criar Array'
+    TabOrder = 0
+    OnClick = btnCriarArrayClick
+  end
+  object BitBtn1: TBitBtn
+    Left = 254
+    Top = 117
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 1
+  end
+  object edtMenorNumero: TEdit
+    Left = 208
+    Top = 26
+    Width = 121
+    Height = 21
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object edtMaiorNumero: TEdit
+    Left = 208
+    Top = 71
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+end

@@ -1,0 +1,47 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Cadastros'
+  ClientHeight = 387
+  ClientWidth = 757
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 674
+    Top = 354
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 104
+    Top = 88
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Aluno1: TMenuItem
+        Caption = 'Aluno'
+        OnClick = Aluno1Click
+      end
+      object Disciplina1: TMenuItem
+        Caption = 'Disciplina'
+        OnClick = Disciplina1Click
+      end
+      object Nota1: TMenuItem
+        Caption = 'Nota'
+        OnClick = Nota1Click
+      end
+    end
+  end
+end

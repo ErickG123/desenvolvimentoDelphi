@@ -1,0 +1,22 @@
+unit untTAluno;
+
+interface
+
+type
+  TAluno = class
+    private
+      RM : String;
+    public
+      procedure setRM( auxRM : String );
+      function getRM : String;
+  end;
+
+implementation
+
+procedure TAluno.setRM( auxRM : String );
+begin
+  self.RM := auxRM;
+end;
+
+
+end.

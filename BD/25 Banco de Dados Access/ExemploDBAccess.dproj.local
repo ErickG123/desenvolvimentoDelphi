@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/23 22:26:38.000.661,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 21:25:35.471,=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 21:30:31.745,C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\untPrincipal.pas=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 21:30:31.745,C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\untPrincipal.dfm=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/09 21:30:41.820,C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\ExemploDBAccess.dproj=C:\Users\sergio.lacerda\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/10/09 21:32:35.763,=C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 21:33:51.909,C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\untDmDados.dfm=C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\Unit1.dfm</Transaction>
+    <Transaction>2019/10/09 21:33:51.909,C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\untDmDados.pas=C:\Users\sergio.lacerda\Desktop\DS-A\24 Banco de Dados Access\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

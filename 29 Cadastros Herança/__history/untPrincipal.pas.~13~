@@ -1,0 +1,39 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, untCadCategoria;
+
+type
+  TfrmPrincipal = class(TForm)
+    Panel1: TPanel;
+    btnCadPlataformas: TButton;
+    btnCadCategorias: TButton;
+    btnCadProdutos: TButton;
+    procedure btnCadCategoriasClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnCadCategoriasClick(Sender: TObject);
+begin
+  if (frmCadCategoria = nil) then
+    frmCadCategoria := TfrmCadCategoria.Create(Application);
+
+    frmCadCategoria.WindowState := wsNormal;
+    frmCadCategoria.ShowModal;
+
+end;
+
+end.

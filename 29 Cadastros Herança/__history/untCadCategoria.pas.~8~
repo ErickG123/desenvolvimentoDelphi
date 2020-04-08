@@ -1,0 +1,28 @@
+unit untCadCategoria;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, untCadTemplate, Vcl.StdCtrls, untDmDados
+  Vcl.Buttons, Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TfrmCadcategoarias = class(TfrmTemplate)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadcategoarias: TfrmCadcategoarias;
+
+implementation
+
+{$R *.dfm}
+
+antion >= caFree;
+frmCadCategoria := nil;
+
+end.

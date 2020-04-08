@@ -1,0 +1,49 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, untClasseCliente, Vcl.StdCtrls,
+  Vcl.Buttons;
+
+type
+  TfrmPrincipal = class(TForm)
+    btnTestarClasse: TButton;
+    edtNomeDigitado: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    edtCpfDigitado: TEdit;
+    BitBtn1: TBitBtn;
+    procedure btnTestarClasseClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnTestarClasseClick(Sender: TObject);
+var p1,p2 : TPessoa;
+begin
+  p1 := TPessoa.Create;
+  p2 := TPessoa.Create;
+
+  p1.setNome('Paulo');
+  p1.cpf := 123456;
+
+   p2.setNome(edtNomeDigitado.Text);
+   p2.cpf := StrToInt(edtCpfDigitado.Text);
+
+  ShowMessage('Pessoa 1 => ' + p1.getNome + ' CPF ' + IntToStr(p1.cpf));
+  ShowMessage('Pessoa 2 => ' + p2.getNome);
+
+end;
+
+end.

@@ -1,0 +1,8 @@
+inherited frmCadProduto: TfrmCadProduto
+  Caption = 'Template Produto'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited navDados: TDBNavigator
+    Hints.Strings = ()
+  end
+end

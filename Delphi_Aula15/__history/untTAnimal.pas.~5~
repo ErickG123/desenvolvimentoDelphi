@@ -1,0 +1,19 @@
+unit untTAnimal;
+
+interface
+
+type
+  TAnimal = class
+  public
+    function emitirSom : String;
+    function emitirSom( som : String ) : String; overload;
+  end;
+
+implementation
+
+function TAnimal.emitirSom : String;
+begin
+  emitirSom := 'Som genérico';
+end;
+
+end.

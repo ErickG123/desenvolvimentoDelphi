@@ -1,0 +1,67 @@
+object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 255
+  Width = 427
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Users\etec\Desktop\31 Cadastro com pesquisa\libmysql.dll'
+    Left = 64
+    Top = 24
+  end
+  object conn: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=dblojagames'
+      'Password=root'
+      'Server=127.0.0.1'
+      'User_Name=root')
+    Connected = True
+    LoginPrompt = False
+    Left = 40
+    Top = 144
+  end
+  object qryPlataformas: TFDQuery
+    Active = True
+    Connection = conn
+    SQL.Strings = (
+      'Select * '
+      'from Plataformas')
+    Left = 136
+    Top = 104
+    object qryPlataformasIdPlataforma: TFDAutoIncField
+      FieldName = 'IdPlataforma'
+      Origin = 'IdPlataforma'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object qryPlataformasPlataforma: TStringField
+      FieldName = 'Plataforma'
+      Origin = 'Plataforma'
+      Required = True
+      Size = 50
+    end
+  end
+  object dsPlataformas: TDataSource
+    DataSet = qryPlataformas
+    Left = 232
+    Top = 104
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 192
+    Top = 24
+  end
+  object qryCategorias: TFDQuery
+    Active = True
+    Connection = conn
+    SQL.Strings = (
+      'Select * '
+      'from Categorias')
+    Left = 136
+    Top = 168
+  end
+  object dsCategorias: TDataSource
+    DataSet = qryCategorias
+    Left = 232
+    Top = 168
+  end
+end

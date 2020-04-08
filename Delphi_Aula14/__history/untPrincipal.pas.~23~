@@ -1,0 +1,64 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    btnTestarClasse: TButton;
+    procedure btnTestarClasseClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+  //Criando nossa classe específica
+  TCarro = class                      //Atributo
+    marca : string;                   //Atributo
+    modelo : string;                  //Atributo
+    ano : integer;
+
+    procedure definirMarca( m : string );   //Métodos
+    function obterMarca : string;           //Métodos
+  end;
+
+
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TCarro.definirMarca( m : string );
+begin
+  self.marca := m;
+end;
+
+function TCarro.obterMarca : string;
+begin
+  obterMarca := self.marca;
+end;
+
+procedure TfrmPrincipal.btnTestarClasseClick(Sender: TObject);
+
+var c : TCarro;
+
+begin
+  c := TCarro.Create;
+
+  //c.marca := 'FORD';
+  c.definirMarca('FORD');
+
+  c.modelo := 'Ka';
+  c.ano := 1996;
+
+  ShowMessage(c.obterMarca);
+end;
+
+end.

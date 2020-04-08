@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Categorias'
+  ClientHeight = 310
+  ClientWidth = 664
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 581
+    Top = 277
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 0
+  end
+  object tabCategoria: TTabbedNotebook
+    Left = 8
+    Top = 8
+    Width = 649
+    Height = 263
+    TabFont.Charset = DEFAULT_CHARSET
+    TabFont.Color = clBtnText
+    TabFont.Height = -11
+    TabFont.Name = 'Tahoma'
+    TabFont.Style = []
+    TabOrder = 1
+    object TTabPage
+      Left = 4
+      Top = 24
+      Caption = 'Pesquisa'
+      ExplicitWidth = 292
+      ExplicitHeight = 222
+    end
+    object TTabPage
+      Left = 4
+      Top = 24
+      HelpContext = 1
+      Caption = 'Edi'#231#227'o'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+    end
+  end
+end

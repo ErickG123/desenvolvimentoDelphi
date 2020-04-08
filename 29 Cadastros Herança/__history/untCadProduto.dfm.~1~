@@ -1,0 +1,8 @@
+inherited frmTemplate1: TfrmTemplate1
+  Caption = 'frmTemplate1'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited navDados: TDBNavigator
+    Hints.Strings = ()
+  end
+end

@@ -1,0 +1,48 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfrmPrincipal = class(TForm)
+    memResultado: TMemo;
+    btnCalcular: TButton;
+    BitBtn1: TBitBtn;
+    Label1: TLabel;
+    edtMedia: TEdit;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnCalcularClick(Sender: TObject);
+var meuVetor : Array [0..99] of Integer;
+    i : integer;
+begin
+  memResultado.Lines.Clear;                       //Limpando (apagando) as linhas
+  memResultado.Lines.Add('Valores do meu vetor'); //Adicionando linha de cabeçalho
+
+  Randomize;
+  //Colocando valores nas posições do vetor
+  for i := 0 to Length(meuVetor)-1 do
+    meuVetor[i] := Random(100);
+
+  //Adicionando cada valor do vetor em uma linha do TMemo
+  for i := 0 to Length(meuVetor)-1 do
+    memResultado.Lines.Add( IntToStr(meuVetor[i]) );
+
+end;
+
+end.

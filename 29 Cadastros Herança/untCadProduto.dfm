@@ -1,0 +1,176 @@
+inherited frmCadProduto: TfrmCadProduto
+  Caption = 'Template Produto'
+  ClientHeight = 502
+  ClientWidth = 552
+  OnClose = FormClose
+  ExplicitWidth = 558
+  ExplicitHeight = 531
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel [0]
+    Left = 8
+    Top = 136
+    Width = 48
+    Height = 13
+    Caption = 'IdProduto'
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel [1]
+    Left = 8
+    Top = 176
+    Width = 38
+    Height = 13
+    Caption = 'Produto'
+    FocusControl = DBEdit2
+  end
+  object Label3: TLabel [2]
+    Left = 8
+    Top = 216
+    Width = 30
+    Height = 13
+    Caption = 'Studio'
+    FocusControl = DBEdit3
+  end
+  object Label4: TLabel [3]
+    Left = 8
+    Top = 256
+    Width = 77
+    Height = 13
+    Caption = 'AnoLancamento'
+    FocusControl = DBEdit4
+  end
+  object Label5: TLabel [4]
+    Left = 8
+    Top = 296
+    Width = 56
+    Height = 13
+    Caption = 'ReqMinimos'
+    FocusControl = DBEdit5
+  end
+  object Label6: TLabel [5]
+    Left = 8
+    Top = 336
+    Width = 92
+    Height = 13
+    Caption = 'ReqRecomendados'
+    FocusControl = DBEdit6
+  end
+  object Label7: TLabel [6]
+    Left = 8
+    Top = 376
+    Width = 60
+    Height = 13
+    Caption = 'IdadeMinima'
+    FocusControl = DBEdit7
+  end
+  object Label8: TLabel [7]
+    Left = 8
+    Top = 416
+    Width = 112
+    Height = 13
+    Caption = 'CaracteristicasTecnicas'
+    FocusControl = DBEdit8
+  end
+  object Label9: TLabel [8]
+    Left = 8
+    Top = 456
+    Width = 36
+    Height = 13
+    Caption = 'Historia'
+    FocusControl = DBEdit9
+  end
+  inherited grdDados: TDBGrid
+    DataSource = DmDados.dsProdutos
+  end
+  inherited navDados: TDBNavigator
+    DataSource = DmDados.dsProdutos
+    Hints.Strings = ()
+  end
+  inherited btnSair: TBitBtn
+    Left = 469
+    Top = 469
+    ExplicitLeft = 469
+    ExplicitTop = 469
+  end
+  object DBEdit1: TDBEdit
+    Left = 8
+    Top = 152
+    Width = 134
+    Height = 21
+    DataField = 'IdProduto'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 3
+  end
+  object DBEdit2: TDBEdit
+    Left = 8
+    Top = 192
+    Width = 200
+    Height = 21
+    DataField = 'Produto'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 4
+  end
+  object DBEdit3: TDBEdit
+    Left = 8
+    Top = 232
+    Width = 200
+    Height = 21
+    DataField = 'Studio'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 5
+  end
+  object DBEdit4: TDBEdit
+    Left = 8
+    Top = 272
+    Width = 134
+    Height = 21
+    DataField = 'AnoLancamento'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 6
+  end
+  object DBEdit5: TDBEdit
+    Left = 8
+    Top = 312
+    Width = 200
+    Height = 21
+    DataField = 'ReqMinimos'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 7
+  end
+  object DBEdit6: TDBEdit
+    Left = 8
+    Top = 352
+    Width = 200
+    Height = 21
+    DataField = 'ReqRecomendados'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 8
+  end
+  object DBEdit7: TDBEdit
+    Left = 8
+    Top = 392
+    Width = 134
+    Height = 21
+    DataField = 'IdadeMinima'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 9
+  end
+  object DBEdit8: TDBEdit
+    Left = 8
+    Top = 432
+    Width = 200
+    Height = 21
+    DataField = 'CaracteristicasTecnicas'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 10
+  end
+  object DBEdit9: TDBEdit
+    Left = 8
+    Top = 472
+    Width = 200
+    Height = 21
+    DataField = 'Historia'
+    DataSource = DmDados.dsProdutos
+    TabOrder = 11
+  end
+end

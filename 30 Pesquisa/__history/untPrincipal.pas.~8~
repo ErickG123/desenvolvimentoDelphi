@@ -1,0 +1,43 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, untDmDados, Vcl.Grids, Vcl.DBGrids,
+  Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    grdProdutos: TDBGrid;
+    Label1: TLabel;
+    edtPesquisaNome: TEdit;
+    btnPesquisar: TButton;
+    procedure btnPesquisarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnPesquisarClick(Sender: TObject);
+var auxSQL : String;
+begin
+  auxSQL := 'Select * from Produtos';
+
+  if (Length(edtPesquisaNome.Text)>=2) then
+  begin
+    auxSQL := auxSQL + ' where Nome like ' +
+              QuotedStr('%' + edtPesquisaNome.Text + '%');
+  end;
+
+end;
+
+end.

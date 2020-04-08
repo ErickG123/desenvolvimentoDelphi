@@ -1,0 +1,38 @@
+unit untTOperacoes;
+
+interface
+
+type TOperacoes = class
+  numero1 : integer;
+  numero2 : integer;
+
+  function somar(n1, n2 : integer) : integer;
+  function subtrair(n1, n2 : integer) : integer;
+  function multiplicar(n1, n2 : integer) : integer;
+  function dividir(n1, n2 : integer) : real;
+end;
+
+implementation
+
+function TOperacoes.somar(n1, n2 : integer) : integer;
+begin
+  somar := n1 + n2;
+end;
+
+function TOperacoes.subtrair(n1, n2 : integer) : integer;
+begin
+  subtrair := n1 - n2;
+end;
+
+function TOperacoes.multiplicar(n1, n2 : integer) : integer;
+begin
+  multiplicar := n1 * n2;
+end;
+
+function TOperacoes.dividir(n1, n2 : integer) : real;
+begin
+  dividir := n1 / n2;
+end;
+
+
+end.

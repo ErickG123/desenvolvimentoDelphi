@@ -1,0 +1,48 @@
+object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 239
+  Width = 518
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 
+      'C:\Users\sergio.lacerda\Desktop\DS-A\28 Cadastros Multi-forms\li' +
+      'bmysql.dll'
+    Left = 56
+    Top = 16
+  end
+  object conn: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=dblojagames'
+      'Password=root'
+      'Server=127.0.0.1'
+      'User_Name=root')
+    Connected = True
+    LoginPrompt = False
+    Left = 48
+    Top = 136
+  end
+  object tblCategoria: TFDTable
+    Active = True
+    IndexFieldNames = 'IdCategoria'
+    Connection = conn
+    UpdateOptions.UpdateTableName = 'dblojagames.categorias'
+    TableName = 'dblojagames.categorias'
+    Left = 144
+    Top = 96
+    object tblCategoriaIdCategoria: TFDAutoIncField
+      FieldName = 'IdCategoria'
+      Origin = 'IdCategoria'
+    end
+    object tblCategoriaCategoria: TStringField
+      FieldName = 'Categoria'
+      Origin = 'Categoria'
+      Required = True
+      Size = 50
+    end
+  end
+  object dsCategoria: TDataSource
+    DataSet = tblCategoria
+    Left = 224
+    Top = 96
+  end
+end

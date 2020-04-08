@@ -1,0 +1,50 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Button1: TButton;
+    BitBtn1: TBitBtn;
+    pnlMaior: TPanel;
+    pnlMedia: TPanel;
+    pnlMenor: TPanel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+
+var preco : Array[0..1094] of real;
+    media : real;
+    menor : real;
+    maior : real;
+    I : integer;
+
+begin
+  media := 0;
+
+  for I := 0 to 1094 do
+  media := media + I;
+
+
+end;
+
+end.

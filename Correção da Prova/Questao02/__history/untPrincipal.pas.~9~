@@ -1,0 +1,62 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    memVetor: TMemo;
+    btnExecutar: TButton;
+    Label1: TLabel;
+    edtMedia: TEdit;
+    Label2: TLabel;
+    edtMaiorPreco: TEdit;
+    Label3: TLabel;
+    edtMenorPreco: TEdit;
+    procedure btnExecutarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnExecutarClick(Sender: TObject);
+var precos : array[0..9] of integer;
+    i, soma, maiorPreco, menorPreco : integer;
+    media : real;
+begin
+  Randomize;
+  soma := 0;
+
+  for i := 0 to 9 do
+  begin
+    precos[i] := 10 + Random(16);
+    soma := soma + precos[i];
+  end;
+
+  media := soma / 10;
+
+  maiorPreco := precos[0];
+  menorPreco := precos[0];
+
+  for i := 0 to 9 do
+  begin
+    if (maiorPreco < precos[i]) then
+      maiorPreco := precos[i];
+
+    if (menorPreco > precos[i]) then
+      menorPreco := precos[i];
+  end;
+end;
+
+end.

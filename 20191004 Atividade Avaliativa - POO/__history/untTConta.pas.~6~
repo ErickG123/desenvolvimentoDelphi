@@ -1,0 +1,33 @@
+unit untTConta;
+
+interface
+
+type TConta = class
+  private
+    numeroConta : integer;
+    saldo : real;
+    limiteEspecial : real;
+  public
+    //Número conta
+    function getNumeroConta : integer;
+    procedure setNumeroConta ( conta : integer );
+    //Saldo
+    function getSaldo : real;
+    procedure setSaldo ( sld : real );
+    //Limite
+    function getLimite : real;
+    procedure setLimite (lim : real) ;
+
+end;
+
+implementation
+
+procedure TConta.setLimite ( lim : real );
+begin
+  if (limiteEspecial > 500) then
+    self.limiteEspecial := 500
+  else
+    self.limiteEspecial := lim;
+end;
+
+end.

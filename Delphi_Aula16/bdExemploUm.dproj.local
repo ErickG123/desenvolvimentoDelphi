@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/09 21:20:22.000.400,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 21:20:50.000.488,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\etec\Desktop\Delphi_Aula16\untPrincipal.dfm</Transaction>
+    <Transaction>2019/10/09 21:20:50.000.488,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\etec\Desktop\Delphi_Aula16\untPrincipal.pas</Transaction>
+    <Transaction>2019/10/09 21:27:38.000.381,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\etec\Desktop\Delphi_Aula16\bdExemploUm.dproj</Transaction>
+    <Transaction>2019/10/09 21:32:37.000.220,=C:\Users\etec\Desktop\Delphi_Aula16\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 21:33:55.000.103,C:\Users\etec\Desktop\Delphi_Aula16\Unit1.pas=C:\Users\etec\Desktop\Delphi_Aula16\untDmDados.pas</Transaction>
+    <Transaction>2019/10/09 21:33:55.000.103,C:\Users\etec\Desktop\Delphi_Aula16\Unit1.dfm=C:\Users\etec\Desktop\Delphi_Aula16\untDmDados.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

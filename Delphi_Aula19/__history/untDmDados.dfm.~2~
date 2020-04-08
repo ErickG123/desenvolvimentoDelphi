@@ -1,0 +1,28 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 328
+  Width = 625
+  object conn: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=escola')
+    LoginPrompt = False
+    Left = 40
+    Top = 40
+  end
+  object tblAluno: TFDTable
+    Connection = conn
+    Left = 40
+    Top = 176
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 120
+    Top = 40
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Users\etec\Desktop\Driver conector mySQL\libmysql.dll'
+    Left = 248
+    Top = 40
+  end
+end

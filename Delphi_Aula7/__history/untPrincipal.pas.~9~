@@ -1,0 +1,57 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    edtInicio: TEdit;
+    edtFinal: TEdit;
+    Label1: TLabel;
+    Label6: TLabel;
+    GroupBox1: TGroupBox;
+    edtQuantidade: TEdit;
+    Label2: TLabel;
+    rbEntrada: TRadioButton;
+    rbSaida: TRadioButton;
+    btnCalcular: TButton;
+    BitBtn1: TBitBtn;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnCalcularClick(Sender: TObject);
+
+var vEstoqueInicial, vQuantidade, vEstoqueFinal : integer;
+
+begin
+
+  vEstoqueInicial := StrToInt(edtInicio.Text);
+  vQuantidade := StrToInt ( edtQuantidade.Text);
+
+  if (rbEntrada.Checked) then
+    vEstoqueFinal := vEstoqueInicial + vQuantidade;
+    if(StrToInt(edtQuantidade.Text) < 0)then
+      showmessage('Coloque um valor positivo')
+
+  else
+    vEstoqueFinal := vEstoqueInicial - vQuantidade;
+
+  edtFinal.Text := IntToStr(vEstoqueFinal);
+
+end;
+
+end.

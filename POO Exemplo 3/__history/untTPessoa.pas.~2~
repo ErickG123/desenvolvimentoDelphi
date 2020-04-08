@@ -1,0 +1,12 @@
+unit untTPessoa;
+
+interface
+
+type
+  TPessoa = Class
+    cpf : integer;
+  End;
+
+implementation
+
+end.

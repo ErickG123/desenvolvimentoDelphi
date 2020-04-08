@@ -1,0 +1,16 @@
+unit untTAluno;
+
+interface
+
+type
+  TAluno = class
+    private
+      RM : String;
+    public
+      procedure setRM( auxRM : String );
+      function getRM : String;
+  end;
+
+implementation
+
+end.

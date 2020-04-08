@@ -1,0 +1,85 @@
+﻿object DmDados: TDmDados
+  OldCreateOrder = False
+  Height = 265
+  Width = 385
+  object conn: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\etec\Deskt' +
+      'op\20191122 - 2'#186' DS - Prova DS\Questao01\Base de Dados\dbSistema' +
+      '.mdb;Persist Security Info=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 32
+    Top = 56
+  end
+  object qryEntidades: TADOQuery
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from entidades')
+    Left = 104
+    Top = 56
+    object qryEntidadesIdentificação: TAutoIncField
+      FieldName = 'Identifica'#231#227'o'
+      ReadOnly = True
+    end
+    object qryEntidadesCategoria: TWideStringField
+      DisplayWidth = 10
+      FieldName = 'Categoria'
+    end
+    object qryEntidadesNome: TWideStringField
+      DisplayWidth = 20
+      FieldName = 'Nome'
+      Size = 50
+    end
+    object qryEntidadesMunicipio: TWideStringField
+      DisplayWidth = 20
+      FieldName = 'Municipio'
+      Size = 50
+    end
+    object qryEntidadesUF: TWideStringField
+      FieldName = 'UF'
+      Size = 2
+    end
+  end
+  object dsEntidades: TDataSource
+    DataSet = qryEntidades
+    Left = 192
+    Top = 56
+  end
+  object qryProdutos: TADOQuery
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from produtos')
+    Left = 104
+    Top = 120
+    object qryProdutosIdentificação: TAutoIncField
+      FieldName = 'Identifica'#231#227'o'
+      ReadOnly = True
+    end
+    object qryProdutosCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 60
+    end
+    object qryProdutosProduto: TWideStringField
+      FieldName = 'Produto'
+      Size = 80
+    end
+    object qryProdutosValorUnitario: TBCDField
+      FieldName = 'ValorUnitario'
+      Precision = 19
+    end
+  end
+  object dsProdutos: TDataSource
+    DataSet = qryProdutos
+    Left = 192
+    Top = 120
+  end
+end

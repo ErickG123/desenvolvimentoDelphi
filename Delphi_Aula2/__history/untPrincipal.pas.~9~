@@ -1,0 +1,43 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Menus;
+
+type
+  TfrmPrincipal = class(TForm)
+    pnlCabecalho: TPanel;
+    btnSair: TButton;
+    MainMenu1: TMainMenu;
+    Cadastro1: TMenuItem;
+    Cliente1: TMenuItem;
+    Fornecedor1: TMenuItem;
+    Produtos1: TMenuItem;
+    Relatorios1: TMenuItem;
+    Relatriodevendas1: TMenuItem;
+    Realatriodecustos1: TMenuItem;
+    Sair1: TMenuItem;
+    Sairdosistema1: TMenuItem;
+    Label1: TLabel;
+    procedure btnSairClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnSairClick(Sender: TObject);
+begin
+  close;
+end;
+
+end.

@@ -1,0 +1,42 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Exemplo Array'
+  ClientHeight = 388
+  ClientWidth = 331
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object memResultado: TMemo
+    Left = 8
+    Top = 8
+    Width = 225
+    Height = 372
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object btnExibir: TButton
+    Left = 248
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Exibir'
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 248
+    Top = 39
+    Width = 75
+    Height = 25
+    Caption = '&Sair'
+    Kind = bkClose
+    NumGlyphs = 2
+    TabOrder = 2
+  end
+end
